@@ -1,0 +1,10 @@
+STA 125
+TCP 53477
+
+IN_REG  1 2000  0  0      10    5  AI  @JacStrSolPan 4 
+HR_INT  1 3700  0  0      60   36  AO  @BojelrTemp 4  
+HR_INT  1 3701  0  16     32   25  AO  @KlimaTemp 4
+DO_REG  2 3500  0  0       1    0  DO  @Vrata 2
+DO_REG  4 3502  0  0       1    0  DO  @Prozor 2
+IN_REG  1 2001  0  0     100   25  AI  @SenTemp 4
+IN_REG  1 2002  0  0      20    5  AI  @SenPritisak 4
